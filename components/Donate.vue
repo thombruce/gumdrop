@@ -37,7 +37,7 @@ client-only
 
       div.mt-10
         p
-          NuxtLink(:to="{ name: 'donate' }") Create your own page
+          NuxtLink(:to="{ name: 'index' }") Create your own page
 </template>
 
 <script>
