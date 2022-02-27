@@ -4,5 +4,8 @@
     .max-w-prose.mx-auto
       Nuxt
 
+  .hidden
+    RockBandUIThemeToggle
+
   RockBandLayoutsClassicFooter
 </template>
