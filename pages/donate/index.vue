@@ -69,7 +69,7 @@ export default {
       if (this.address) return { name: 'donate-address', params: { address: this.address }, query: query }
     },
     asString () {
-      if (this.previewLink) return process.env.baseUrl + this.$router.resolve(this.previewLink).href
+      if (this.previewLink) return process.env.baseUrl + '/' + this.$router.resolve(this.previewLink).href
     },
     create () {
       this.$router.push(this.previewLink)
